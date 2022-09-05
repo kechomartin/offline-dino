@@ -1,6 +1,9 @@
+body{
+    background-image: -moz-linear-gradient(rgb(8, 115, 127));
+}
 label{
-    display:bblock;
-    margin-top: 30px;
+    display: block;
+    margin-top: 15px;
     font-size: 16px;
     font-weight: 500;
 }
@@ -9,29 +12,50 @@ input{
     height: 50px;
     width: 100%;
     background-color: rgba(255,255,255,0/07);
-    border-radius: 3px;
-    padding: 0 10px;
+    border-radius: 10px;
+    border-style: groove;
+    padding: 0 8px;
     margin-top: 8px;
     font-size: 14px;
     font-weight: 300;
 }
 ::placeholder{
-    color: #e5e5e5;
+    color: black;
+    font-size: 18px;
 }
-button{
+.button1{
     margin-top: 50px;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #00d4ff;
     color: #080710;
-    padding: 15px 0;
+    padding: 10px 0;
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;
     transition: 0.5s;
+    border-radius: 10px;
+    min-height: 10px;
+    min-width: 100px;
+
+}
+.button2{
+    margin-top: 40px;
+    width: 100%;
+    background-color: #00d4ff;
+    color: #080710;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px;
+    min-height: 10px;
+    min-width: 100px;
+
 }
 button:hover{
-    background: #ABC9FF;
-    color: white;
+    background: #08737f;
+    color: #64c987;
 }
 *,
 *:before,
@@ -43,15 +67,14 @@ button:hover{
 .container{
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(0,0,0,0.1),(rgba(0,0,0.1)),
-    url('https://i.pinimg.com/564x/a3/d6/b4/a3d6b453c4f70a5a53a036584ea5ce13.jpg');
+    background-image: linear-gradient(rgb(57, 180, 142));
     background-position: center;
     background-size: 100% 100%;
 }
 form{
     height: 520px;
     width: 400px;
-    background-color: rgba(255,255,255,0.13);
+    background-color: rgb(57, 180, 142);
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
@@ -64,14 +87,20 @@ form{
 }
 form{
     font-family: 'Poppins',sans-serif;
-    color: #ffffff;
+    color: black;
     letter-spacing: 0.5px;
     outline: none;
     border: none; 
 }
-form h3{
+form{
     font-size: 32px;
     font-weight: 500px;
     line-height: 42px;
+    padding: 50px;
     text-align: center;
+    text-emphasis-color: teal;
+}
+h3{
+    text-align: center;
+    color: black;
 }
