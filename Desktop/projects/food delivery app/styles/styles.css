@@ -1,6 +1,9 @@
 body{
     background-image: -moz-linear-gradient(rgb(8, 115, 127));
 }
+div{
+    background-image: url('/images/image4.jpg') ;
+}
 label{
     display: block;
     margin-top: 15px;
@@ -25,8 +28,8 @@ input{
 }
 .button1{
     margin-top: 50px;
-    width: 100%;
-    background-color: #00d4ff;
+    width: 80%;
+    background-color: #A3CDE2;
     color: #080710;
     padding: 10px 0;
     font-size: 18px;
@@ -40,8 +43,8 @@ input{
 }
 .button2{
     margin-top: 40px;
-    width: 100%;
-    background-color: #00d4ff;
+    width: 80%;
+    background-color: #A3CDE2;
     color: #080710;
     padding: 10px 0;
     font-size: 18px;
@@ -54,8 +57,8 @@ input{
 
 }
 button:hover{
-    background: #08737f;
-    color: #64c987;
+    background: #0bb2c5;
+    color: #115475;
 }
 *,
 *:before,
@@ -67,14 +70,14 @@ button:hover{
 .container{
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgb(57, 180, 142));
+    background-image: linear-gradient(rgb(0, 76, 76));
     background-position: center;
     background-size: 100% 100%;
 }
 form{
-    height: 520px;
+    height: 600px;
     width: 400px;
-    background-color: rgb(57, 180, 142);
+    background-color: rgb(255, 255, 255, 0.2);
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
@@ -82,7 +85,7 @@ form{
     border-radius: 10px;
     backdrop-filter: blur(10px);
     border: 2px solid rgba(255,255,255,0.1);
-    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    box-shadow: 0 0 40px rgba(129,124,124,0.2);
     padding: 50px 35px;     
 }
 form{
@@ -98,7 +101,6 @@ form{
     line-height: 42px;
     padding: 50px;
     text-align: center;
-    text-emphasis-color: teal;
 }
 h3{
     text-align: center;
