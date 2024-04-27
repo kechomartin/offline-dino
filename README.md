@@ -1,4 +1,4 @@
-# Offline Jumping Dino :
+# Offline Jumping Dino 
 The game you play when you're not connected to the internet
 
 
